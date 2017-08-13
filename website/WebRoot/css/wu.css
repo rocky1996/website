@@ -1,0 +1,61 @@
+.personal-mid{/*中部总盒子*/
+	width: 520px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: white;
+	border-radius:10px;
+}
+.personal-mid .nav {/*中部导航*/
+	width: 520px;
+	height: 80px;
+	overflow: hidden;
+}
+.personal-mid .nav li{
+	display: block;
+	width:100px;
+	height:50px;
+	margin-left: 20px;
+	float: left; 
+	list-style: none;
+	text-align: center;
+	background: #00AC90;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+}
+.personal-mid .nav li:first-child{
+	margin-left: 30px;
+}
+.personal-mid .nav li a {
+	text-decoration: none;
+	font-size: 20px; 
+	line-height: 50px;
+	font-family:"楷体";
+	color: white;
+}
+.personal-mid .nav .active a{
+	font-weight: bolder;
+}
+.personal-mid .nav .active{
+	background: #FFB200;
+}
+.personal-mid .box{/*四个信息盒子*/
+	display: none;
+	width: 518px;
+	height: 340px;
+	margin-top: 10px;
+	overflow: hidden;
+	background: white;
+}
+#boxOne{
+	background: url(../image/one.png) no-repeat center;
+}
+#boxTwo{
+	background: url(../image/two.png) no-repeat center;
+}
+#boxThree{
+	background: url(../image/three.png) no-repeat center;
+}
+#boxFour{
+	background: url(../image/four.png) no-repeat center;
+}

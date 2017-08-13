@@ -1,0 +1,289 @@
+body{
+    overflow:scroll;
+    overflow-x:hidden;
+    background-color: #ddd;
+}
+h1{
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+}
+.header [class*=col-]{
+    background-color: #012231;
+    padding: 15px;
+}
+.header .logo{
+    padding-left: 15%;
+    font-size: 24px;
+    font-weight: 900;
+    color: #2FD828;
+}
+.search{
+    padding-left: 5%;
+}
+#inputSuccess2{
+    width: 80%;
+    height: 35px;
+    padding:6px;
+    font-size: 18px;
+    display: inline-block;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius: 0px;
+}
+.searchbtn{
+    border-top-left-radius:0px ;
+    border-bottom-left-radius: 0px;
+    margin-left: -6px;
+    margin-top: -4px;
+    height: 35px;
+    box-sizing: border-box;
+    border:1px solid #cccccc;
+}
+.login,.reg{
+    padding: 6px 13px;
+    font-size: 15px;
+    background: #2FD828;
+    color: #ffffff;
+    font-weight: 700;
+}
+.con{
+    margin-top: 5px;
+}
+.navigation{
+    background: #012231;
+}
+.navigation .item{
+    cursor: pointer;
+    font-size: 12px;
+    height: 64px;
+    line-height: 66px;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    box-sizing: content-box;
+    position: relative;
+}
+.navigation .item a{
+    color: #ffffff;
+    display: block;
+    height:63px;
+    line-height: 63px;
+    text-decoration: none;
+    padding:0 40px 0 40px;
+    width:173px;
+    background:url("../image/img.png") no-repeat scroll 0 0;
+}
+.navigation .item .group{
+    font-size: 16px;
+}
+.navigation .item a.hot{
+   background-position:0 15px;
+}
+.navigation .item a.elec{
+    background-position:0 -63px;
+}
+.navigation .item a.toiletry{
+    background-position:0 -145px;
+}
+.navigation .item a.cloth{
+    background-position:0 -222px;
+}
+.navigation .item a.bike{
+    background-position:-7px -312px;
+}
+.navigation .item a.book{
+    background-position:0 -393px;
+}
+.navigation .item a.daily{
+    background-position:0 -482px;
+}
+.navigation .item:hover{
+    background-color: #2FD828;
+}
+.glyphicon-play{
+    position: absolute;
+    top:26px;
+    right: 30px;
+}
+.slide{
+	float:left;
+    width: 1000px;
+    height:430px;
+    overflow:hidden;
+    margin-left: -10px;
+}
+.slideRight{
+	width:500px;
+	height:430px;
+	float:left;
+	margin-left:20px;
+}
+.nav {/*中部导航*/
+	width: 500px;
+	height: 60px;
+	overflow: hidden;
+}
+.nav li{
+	display: block;
+	width:85px;
+	height:50px;
+	line-height:50px;
+	float: left; 
+	margin-top: 10px;
+	list-style: none;
+	text-align: center;
+	background: #00AC90;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+}
+.nav li a {
+	text-decoration: none;
+	font-size: 20px; 
+	line-height: 50px;
+	font-family:"楷体";
+	color: white;
+}
+.nav .active a{
+	font-weight: bolder;
+}
+.nav .active{
+	background: #FFB200;
+}
+
+.box{/*两个个信息盒子*/
+	display: none;
+	width: 500px;
+	height:430px;
+	margin-top: 15px;
+	overflow: hidden;
+	background: white;
+	position: relative;
+}
+.carousel-inner .item img{
+	display:block;
+    position:absoulte;
+    left:0;right:0;top:0;bottom:0;
+    margin:auto;
+}
+.front{
+    padding: 0;
+    margin-top: 6px;
+    margin-left: 6%;
+}
+.panel{
+    background-color: #dddddd;
+    border:1px solid #012231;
+    box-sizing: border-box;
+}
+.panel-title{
+    color: #ffffff;
+}
+.panel-heading{
+    background-color: #012231;
+}
+.panel-heading h1{
+    display: inline-block;
+}
+.titleRight{
+    float: right;
+    margin-top: -10px;
+    font-family: 'Glyphicons Halflings';
+}
+.titleRight a{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+.titleRight a:hover{
+    color: #8a6d3b;
+}
+.panel-body{
+    padding: 0;
+}
+.show{
+    border: 1px solid #012231;
+    padding: 1%;
+}
+.panel-row{
+    margin: 0;
+    color: #000000;
+}
+.showCon,.showimg{
+    padding: 0;
+}
+.showCon{
+    padding-left: 3%;
+}
+.showCon a{
+    color: #012231;
+    text-decoration: none;
+    font-family: "Adobe Caslon Pro";
+    font-weight: 800;
+}
+.showCon a:hover{
+    color: #8a6d3b;
+}
+.footer{
+    background-color: #012231;
+}
+
+.link{
+    color: #fff;
+    padding: 1%;
+    font-family: "Adobe 榛戜綋 Std R";
+    font-weight: 700;
+    border-bottom: 0.1rem solid #f9f2f4;
+    padding-bottom: 0;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    float: left;
+    text-align: center;
+}
+ul li:not(:first-child){
+    margin-left: 10%;
+}
+.small {
+    width: 40px;
+    height: 40px;
+    display: block;
+    -webkit-transition:all 0.8s ease-in-out;
+}
+.weiBo{
+    background-image: url("../image/weibo(1).png");
+}
+.qq{
+    background-image: url("../image/qq.png");
+}
+.weiXin{
+    background-image: url("../image/wexin.png");
+}
+.zhiFuBao{
+    background-image: url("../image/zhifubao.png");
+}
+.small:hover{
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    -mo-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+ul li a:not(.small),.footerCon a{
+    display: block;
+    line-height: 23px;
+    color: #ffffff;
+    text-decoration: none;
+}
+ul li a:not(.small):hover{
+    color: #8a6d3b;
+}
+.footerCon [class*=col-]{
+    padding: 15px 0;
+}
+#mask{background-color:#000;opacity:0.7;filter: alpha(opacity=70);position:absolute;left:0;top:0;z-index:1000;}
+#face{position:fixed;z-index:1001;font-family: "Adobe Caslon Pro Bold";width: 30%;height: 50%;background-color: #012231;}
